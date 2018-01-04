@@ -5,7 +5,10 @@ Simple class for the basic functionality to encode/decode JWT (JSON Web Tokens) 
 
 # usage
 
-```require 'jwt.php';
+```php
+<?php
+
+require 'jwt.php';
 
 define('JWTKEY', 'SUPERSECRETPRIVATEKEY');
 
@@ -41,4 +44,5 @@ try {
 }
 catch (Exception $e){
     echo $e->getMessage();
-}```
+}
+```
